@@ -1,4 +1,5 @@
 import encriptado
+import desencriptado
 
 mainApp = True
 encrypt = False
@@ -18,5 +19,9 @@ while mainApp:
     elif(estadoDeAccion == "desencriptar"):
         desencrypt = True
         while desencrypt:
-            print("En creación")
+            print(desencriptado.desencriptar(input("Qué quieres que desencripte: ")));
+            if(input(" :") == ""):
+                desencrypt = True
+            else:
+                desencrypt = False
         
