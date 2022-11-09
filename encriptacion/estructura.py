@@ -40,6 +40,8 @@ cryptoStructure = {
 }
 
 descryptStructure = {
+    "q": "q",
+    
     "w": "q",
     "e": "w",
     "r": "e",
@@ -49,7 +51,7 @@ descryptStructure = {
     "i": "u",
     "o": "i",
     "p": "o",
-    "(q)": "p",
+    "'": "p",
 
     "|": " ",
     ",": ",",
@@ -58,6 +60,8 @@ descryptStructure = {
     ";": ";",
     "-": "-",
     "__": "_",
+
+    "a": "a",
 
     "s": "a",
     "d": "s",
@@ -68,13 +72,15 @@ descryptStructure = {
     "k": "j",
     "l": "k",
     "ñ": "l",
-    "(a)": "ñ",
+    "\\": "ñ",
+
+    "z": "z",
 
     "x": "z",
     "c": "x",
-    "v": "x",
+    "v": "c",
     "b": "v",
     "n": "b",
     "m": "n",
-    "(z)": "m"
+    "^": "m"
 }
