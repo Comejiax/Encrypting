@@ -1,10 +1,14 @@
 import estructura
 
 def desencriptar(textoADesencriptar):
-    textoSimplificado = textoADesencriptar.replace("(q)", "'")
-    textoSimplificado = textoADesencriptar.replace("(a)", "\\")
-    textoSimplificado = textoADesencriptar.replace("(z)", "^")
+    textoSimplificado = textoADesencriptar
+
+    textoSimplificado = textoSimplificado.replace("(q)", "'")
+    textoSimplificado = textoSimplificado.replace("(a)", "\\")
+    textoSimplificado = textoSimplificado.replace("(z)", "^")
     
+
+
     textoDesencriptado = []
     descomposicionTexto = list(textoSimplificado.lower())
     for i in descomposicionTexto:
